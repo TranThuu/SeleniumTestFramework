@@ -27,6 +27,14 @@ public class DummyClass extends BaseClass {
         //throw  new SkipException("Skipping the test as part of Testing");
     }
 
+    @Test
+    public void testJenkins(){
+        //ExtentManager.startTest("dummy Test 1");
+        Assert.assertTrue(true,"error");
+        //ExtentManager.logSkip("this case is skipped");
+        //throw  new SkipException("Skipping the test as part of Testing");
+    }
+
 //    @Test
 //    public void failTest(){
 //        Assert.assertTrue(loginPage.verifyCredentialErrorMessage("haha"), "FailTest");
