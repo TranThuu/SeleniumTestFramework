@@ -2782,3 +2782,17 @@ System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.v
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57917}, goog:processID: 19848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57917/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 2c3fd4422262a90a4688421637d62a09
+2025-11-08 10:45:33 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:45:33 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:45:38 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:45:38 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:45:44 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:45:44 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:45:51 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:45:51 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:45:58 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:45:58 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:46:05 [TestNG-test-OrangeHRMTest-1] ERROR BaseClass - error message
+2025-11-08 10:46:05 [TestNG-test-OrangeHRMTest-1] FATAL BaseClass - fatal message
+2025-11-08 10:46:14 [TestNG-test-OrangeHRMTest-2] ERROR BaseClass - error message
+2025-11-08 10:46:14 [TestNG-test-OrangeHRMTest-2] FATAL BaseClass - fatal message
