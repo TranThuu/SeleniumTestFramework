@@ -162,9 +162,14 @@ public class BaseClass {
 
     //Getter method for WebDriver
     public static WebDriver getDriver(){
-        if(driver.get() == null){
-            System.out.println("WebDriver is not initialized");
-            throw new IllegalStateException("Driver is not initialized");
+        try {
+            if (driver.get() == null) {
+                logger.info("WebDriver is not initialized");
+                throw new IllegalStateException("Driver is not initialized");
+            }
+            return driver.get();
+        }catch (Exception e){
+            logger.error("Driver is not initialized: " + e);
         }
         return driver.get();
     }

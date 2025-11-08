@@ -2470,3 +2470,537 @@
 2025-11-08 10:46:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Element is displayed: Placeholder with name: null
 2025-11-08 10:46:17 [TestNG-test-OrangeHRMTest-2] INFO  ActionDriver - Applied the border with color green to element Placeholder with name: null
 2025-11-08 10:46:17 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:40:54 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 15:40:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:41:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:41:02 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:41:02 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:41:02 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:41:02 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 15:41:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 15:41:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 15:41:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:41:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:41:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:41:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:41:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:41:06 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:41:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:41:09 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:41:09 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:41:09 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:41:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 15:41:10 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 15:41:10 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 15:41:10 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:41:10 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:41:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:41:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:41:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:41:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 15:41:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 15:41:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:41:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:41:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:41:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:41:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:41:20 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 15:41:24 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 15:41:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:41:25 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:41:26 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 15:41:27 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 15:41:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: rusty user
+2025-11-08 15:41:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: rusty user
+2025-11-08 15:41:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 15:41:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 15:43:54 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:59:32 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 15:59:35 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:59:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:59:38 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:59:38 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:59:38 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:59:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 15:59:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 15:59:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 15:59:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:59:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:59:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:59:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:59:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:59:42 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:59:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:59:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:59:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:59:49 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:59:50 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 15:59:53 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 15:59:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 15:59:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 15:59:55 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 15:59:55 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 15:59:55 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 15:59:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 15:59:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 15:59:59 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 15:59:59 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 15:59:59 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 15:59:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:00:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:00:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:00:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:00:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:00:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:00:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:00:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil user
+2025-11-08 16:00:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil user
+2025-11-08 16:00:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:00:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:00:05 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:04:25 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:04:58 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:05:35 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:05:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:05:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:05:40 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:05:40 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:05:40 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:05:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:05:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:05:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:05:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:05:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:05:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:05:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:05:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:05:44 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:05:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:05:47 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:05:47 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:05:47 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:05:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:05:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:05:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:05:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:05:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:05:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:05:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:05:50 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:05:51 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:05:55 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:05:55 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:05:55 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:05:55 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:05:55 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:05:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 16:05:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:05:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:05:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:05:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:05:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:05:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:06:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:06:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:06:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:06:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:06:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:07:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil user
+2025-11-08 16:07:18 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil user
+2025-11-08 16:07:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:07:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:08:04 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:08:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 16:11:33 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:11:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:11:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:11:43 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:11:43 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:11:43 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:11:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:11:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:11:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:11:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:11:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:11:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:11:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:11:47 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:11:49 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:12:03 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:12:03 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:12:03 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:12:03 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:12:03 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:12:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:12:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:12:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:12:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:12:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:12:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:12:07 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:12:08 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:12:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:12:11 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:12:11 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:12:11 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:12:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:12:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 16:12:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:12:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:12:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:12:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:12:14 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:12:14 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:12:15 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:12:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:12:18 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:12:18 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:12:18 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:12:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:12:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:12:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:12:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:12:19 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:12:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:12:21 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:12:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil user
+2025-11-08 16:12:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil user
+2025-11-08 16:12:32 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:12:33 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:14:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:23:28 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 16:26:35 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:26:38 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:26:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:26:41 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:26:41 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:26:41 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:26:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:26:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:26:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:26:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:26:43 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:26:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:26:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:26:45 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:26:45 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:26:49 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:26:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:26:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:26:50 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:26:52 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:26:52 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:26:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:26:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:26:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:26:56 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:26:56 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:26:56 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:26:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:26:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 16:26:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:26:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:26:57 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:26:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:26:59 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:26:59 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:27:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:27:03 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:27:03 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:27:03 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:27:03 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:27:03 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:27:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:27:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:27:06 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:27:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 16:27:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 16:27:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:27:07 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:27:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:27:09 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 16:32:30 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:32:33 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:32:37 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:32:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:32:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:32:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:32:39 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:32:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:32:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:32:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:32:45 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:32:45 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:32:45 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:32:45 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:32:45 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:32:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:32:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:32:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:32:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:32:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:32:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:32:49 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:32:50 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:32:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:32:53 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:32:53 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:32:53 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:32:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:32:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 16:32:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:32:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:32:54 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:32:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:32:56 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:32:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:32:57 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:33:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:33:00 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:33:00 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:33:00 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:33:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:33:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:33:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:33:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:33:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:33:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:33:03 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:33:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 16:33:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 16:33:04 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:33:05 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:33:06 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:33:06 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 16:46:52 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:46:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:47:00 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:47:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:47:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:47:01 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:47:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:47:02 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:48:12 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:48:41 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:48:44 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:48:44 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:48:44 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:48:44 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:48:44 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:48:45 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:48:45 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:48:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:48:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:48:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:48:48 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:50:00 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:50:08 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:50:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:50:11 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:50:11 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:50:11 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:50:11 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:50:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-08 16:50:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:50:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:50:12 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:50:14 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:50:14 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:52:35 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:52:56 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 16:53:10 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:53:11 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:53:11 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:53:11 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:53:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:53:13 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:53:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 16:53:36 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 16:53:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:53:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:54:39 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:54:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 16:55:23 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:55:26 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 34
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-08 16:55:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-08 16:55:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:55:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:55:32 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:55:32 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:56:46 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:57:17 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:57:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:57:27 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:57:27 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:57:27 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:57:27 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 34
+2025-11-08 16:57:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:57:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-08 16:57:28 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:57:29 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:57:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-08 16:57:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-08 16:58:55 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:59:32 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 16:59:34 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 16:59:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 16:59:37 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 16:59:37 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 16:59:37 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 16:59:37 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 16:59:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 16:59:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 16:59:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 16:59:38 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 16:59:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 16:59:40 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 16:59:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 16:59:41 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 16:59:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 16:59:42 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 16:59:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 16:59:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 17:00:37 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 17:00:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:00:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:00:43 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 17:00:43 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 17:00:43 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 17:00:43 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 35
+2025-11-08 17:00:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 17:00:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 17:00:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 17:00:44 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 17:00:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 17:00:46 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 17:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: manda user
+2025-11-08 17:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: manda user
+2025-11-08 17:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 17:00:47 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 17:02:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 17:22:18 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver is not initialized
+2025-11-08 17:24:04 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 17:24:07 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:24:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:24:13 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 17:24:13 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 17:24:13 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 17:24:13 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 33
+2025-11-08 17:24:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 17:24:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 17:24:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 17:24:17 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 17:24:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 17:24:30 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 17:24:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 17:24:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 17:24:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 17:24:31 [TestNG-test-OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 17:24:40 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 17:25:45 [main] INFO  BaseClass - config.properties file loaded
+2025-11-08 17:25:48 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:25:48 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:25:49 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:25:49 [TestNG-test-OrangeHRMTest-2] TRACE BaseClass - Trace message
+2025-11-08 17:25:49 [TestNG-test-OrangeHRMTest-2] DEBUG BaseClass - debug message
+2025-11-08 17:25:49 [TestNG-test-OrangeHRMTest-2] WARN  BaseClass - warn message
+2025-11-08 17:25:49 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-08 17:25:50 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:25:50 [TestNG-test-OrangeHRMTest-4] INFO  BaseClass - ChromeDriver instance is created
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-1] TRACE BaseClass - Trace message
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-1] DEBUG BaseClass - debug message
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-1] WARN  BaseClass - warn message
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-08 17:25:52 [TestNG-test-OrangeHRMTest-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-4] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-4] TRACE BaseClass - Trace message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-4] DEBUG BaseClass - debug message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-4] WARN  BaseClass - warn message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-4] INFO  BaseClass - ActionDriver initialized for thread 40
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-3] TRACE BaseClass - Trace message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-3] DEBUG BaseClass - debug message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-3] WARN  BaseClass - warn message
+2025-11-08 17:25:53 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - ActionDriver initialized for thread 39
+2025-11-08 17:25:54 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-08 17:25:55 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-08 17:25:57 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Element is displayed: Placeholder with name: null
+2025-11-08 17:25:57 [TestNG-test-OrangeHRMTest-4] INFO  ActionDriver - Applied the border with color green to element Placeholder with name: null
+2025-11-08 17:25:57 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-08 17:25:57 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-08 17:25:58 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is clicked -> Text with name: akhil Hurtado
+2025-11-08 17:25:58 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element Text with name: akhil Hurtado
+2025-11-08 17:25:58 [TestNG-test-OrangeHRMTest-4] INFO  BaseClass - WebDriver instance is quited
+2025-11-08 17:25:59 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-08 17:25:59 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-08 17:26:00 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is quited

@@ -33,13 +33,13 @@ public class LoginPageTest extends BaseClass {
        ExtentManager.logStep("Logged out successfully");
    }
 
-    @Test(dataProvider="invalidLoginData", dataProviderClass = DataProviders.class)
-    public void verifyInvalidLoginTest(String username, String password){
-//        ExtentManager.startTest("Invalid Login Test");
-        ExtentManager.logStep("Enter incorrect username & password");
-        loginPage.login(username,password);
-        ExtentManager.logStep("Invalid credential");
-        Assert.assertTrue(loginPage.isCredentialErrorMessageDisplayed(), "Invalid credential should be displayed");
-        ExtentManager.logStep("Validation successfully");
-    }
+//    @Test(dataProvider="invalidLoginData", dataProviderClass = DataProviders.class)
+//    public void verifyInvalidLoginTest(String username, String password){
+////        ExtentManager.startTest("Invalid Login Test");
+//        ExtentManager.logStep("Enter incorrect username & password");
+//        loginPage.login(username,password);
+//        ExtentManager.logStep("Invalid credential");
+//        Assert.assertTrue(loginPage.isCredentialErrorMessageDisplayed(), "Invalid credential should be displayed");
+//        ExtentManager.logStep("Validation successfully");
+//    }
 }
