@@ -29,9 +29,10 @@ public class DummyClass extends BaseClass {
 
     @Test
     public void testJenkins(){
+        //hehe
         //ExtentManager.startTest("dummy Test 1");
         Assert.assertTrue(true,"error");
-        //ExtentManager.logSkip("this case is skipped");
+        //ExtentManager.logSkip("this casgit e is skipped");
         //throw  new SkipException("Skipping the test as part of Testing");
     }
 
