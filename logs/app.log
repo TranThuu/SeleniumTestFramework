@@ -3088,3 +3088,274 @@
 2025-11-08 17:40:01 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Element is clicked -> Text with name: Logout
 2025-11-08 17:40:01 [TestNG-test-OrangeHRMTest-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
 2025-11-08 17:40:03 [TestNG-test-OrangeHRMTest-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:48:43 [main] INFO  BaseClass - config.properties file loaded
+2025-11-09 10:48:54 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:48:54 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:48:58 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:48:58 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:48:58 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:48:58 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:48:58 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:48:59 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:00 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:00 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:00 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:00 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:00 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:01 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:01 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:02 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:49:06 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:06 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:06 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:06 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:06 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:07 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:07 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:07 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:49:07 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:49:07 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:49:07 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:49:07 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:09 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:10 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:11 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:11 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:11 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:11 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:11 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:11 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:13 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:14 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:14 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:14 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:14 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:14 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:14 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:15 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:49:17 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:17 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:17 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:17 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:17 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:17 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:18 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:19 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:19 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:19 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:19 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:19 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:20 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:20 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:20 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:49:20 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:49:20 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:49:20 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:49:21 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:21 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:21 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:21 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:21 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:22 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:23 [TestNG-tests-1] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-09 10:49:23 [TestNG-tests-1] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-09 10:49:23 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:23 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:25 [TestNG-tests-2] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-09 10:49:25 [TestNG-tests-2] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-09 10:49:25 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:25 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:26 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:26 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:26 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:49:27 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:28 [TestNG-tests-2] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:29 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:30 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:30 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:30 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:49:30 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:49:30 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:49:30 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:49:31 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:33 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:33 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:33 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:33 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:33 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:33 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:34 [TestNG-tests-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:49:34 [TestNG-tests-1] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-09 10:49:35 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:35 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:36 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:37 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:37 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:38 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:39 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:39 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:39 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:39 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:39 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:41 [TestNG-tests-2] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:49:41 [TestNG-tests-2] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-09 10:49:41 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:41 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:41 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:43 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:43 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:43 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:43 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:43 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:44 [TestNG-tests-2] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:44 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:45 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:49:46 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:47 [TestNG-tests-1] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-09 10:49:48 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:48 [TestNG-tests-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:49:48 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:48 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:49 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:49 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:49:49 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:49:49 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:49:49 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:49:50 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:50 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:50 [TestNG-tests-3] INFO  ActionDriver - Entered text: "abc" to element: Element with name: username
+2025-11-09 10:49:51 [TestNG-tests-3] INFO  ActionDriver - Entered text: "112" to element: Element with name: password
+2025-11-09 10:49:51 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:51 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:51 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:51 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:51 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:49:51 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:49:51 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:49:51 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:49:52 [TestNG-tests-2] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-09 10:49:52 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:49:53 [TestNG-tests-2] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:49:53 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:53 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:49:53 [TestNG-tests-3] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:53 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:55 [TestNG-tests-2] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:49:55 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:49:55 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:56 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:49:57 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:49:57 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:49:57 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:49:57 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:49:57 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:49:58 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:49:59 [TestNG-tests-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:49:59 [TestNG-tests-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:49:59 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:49:59 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:01 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:50:02 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-09 10:50:02 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:02 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:50:02 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:50:02 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:50:02 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:50:02 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-09 10:50:03 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: ahmed mohamed
+2025-11-09 10:50:03 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: ahmed mohamed
+2025-11-09 10:50:03 [TestNG-tests-2] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:04 [TestNG-tests-2] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:04 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:04 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:04 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-09 10:50:04 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-09 10:50:04 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:04 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:50:04 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:50:04 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:50:04 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:50:05 [TestNG-tests-3] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:05 [TestNG-tests-3] INFO  ActionDriver - Entered text: "12" to element: Element with name: password
+2025-11-09 10:50:05 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:06 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:06 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:06 [TestNG-tests-2] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-09 10:50:06 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-09 10:50:08 [TestNG-tests-1] INFO  BaseClass - ChromeDriver instance is created
+2025-11-09 10:50:08 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: ahmed mohamed
+2025-11-09 10:50:08 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: ahmed mohamed
+2025-11-09 10:50:08 [TestNG-tests-3] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:50:08 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:50:09 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-09 10:50:09 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-09 10:50:10 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:11 [TestNG-tests-1] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:11 [TestNG-tests-1] TRACE BaseClass - Trace message
+2025-11-09 10:50:11 [TestNG-tests-1] DEBUG BaseClass - debug message
+2025-11-09 10:50:11 [TestNG-tests-1] WARN  BaseClass - warn message
+2025-11-09 10:50:11 [TestNG-tests-1] INFO  BaseClass - ActionDriver initialized for thread 36
+2025-11-09 10:50:11 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:13 [TestNG-tests-1] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:14 [TestNG-tests-2] INFO  BaseClass - EdgeDriver instance is created
+2025-11-09 10:50:14 [TestNG-tests-1] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:15 [TestNG-tests-1] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:15 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:17 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:50:18 [TestNG-tests-2] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:18 [TestNG-tests-2] TRACE BaseClass - Trace message
+2025-11-09 10:50:18 [TestNG-tests-2] DEBUG BaseClass - debug message
+2025-11-09 10:50:18 [TestNG-tests-2] WARN  BaseClass - warn message
+2025-11-09 10:50:18 [TestNG-tests-2] INFO  BaseClass - ActionDriver initialized for thread 37
+2025-11-09 10:50:18 [TestNG-tests-1] INFO  ActionDriver - Element is displayed: Placeholder with name: null
+2025-11-09 10:50:19 [TestNG-tests-1] INFO  ActionDriver - Applied the border with color green to element Placeholder with name: null
+2025-11-09 10:50:20 [TestNG-tests-1] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:20 [TestNG-tests-2] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:21 [TestNG-tests-2] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:21 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:21 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:50:21 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:50:21 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:50:21 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:50:21 [TestNG-tests-2] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:22 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:22 [TestNG-tests-3] INFO  ActionDriver - Entered text: "a" to element: Element with name: username
+2025-11-09 10:50:22 [TestNG-tests-3] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:23 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:23 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:25 [TestNG-tests-2] INFO  ActionDriver - Element is displayed: Placeholder with name: null
+2025-11-09 10:50:25 [TestNG-tests-3] INFO  ActionDriver - Element is displayed: Text with name: Invalid credentials
+2025-11-09 10:50:26 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Invalid credentials
+2025-11-09 10:50:26 [TestNG-tests-2] INFO  ActionDriver - Applied the border with color green to element Placeholder with name: null
+2025-11-09 10:50:28 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:30 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:34 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:50:38 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:38 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:50:38 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:50:38 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:50:38 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:50:39 [TestNG-tests-3] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:39 [TestNG-tests-3] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:39 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:39 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:41 [TestNG-tests-3] INFO  ActionDriver - Element is displayed: Text with name: Admin
+2025-11-09 10:50:42 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Admin
+2025-11-09 10:50:42 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: ahmed mohamed
+2025-11-09 10:50:42 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: ahmed mohamed
+2025-11-09 10:50:43 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Logout
+2025-11-09 10:50:43 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Logout
+2025-11-09 10:50:46 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
+2025-11-09 10:50:50 [TestNG-tests-3] INFO  BaseClass - FirefoxDriver instance is created
+2025-11-09 10:50:53 [TestNG-tests-3] INFO  BaseClass - WenDriver Initialized and Browser Maximized
+2025-11-09 10:50:53 [TestNG-tests-3] TRACE BaseClass - Trace message
+2025-11-09 10:50:53 [TestNG-tests-3] DEBUG BaseClass - debug message
+2025-11-09 10:50:53 [TestNG-tests-3] WARN  BaseClass - warn message
+2025-11-09 10:50:53 [TestNG-tests-3] INFO  BaseClass - ActionDriver initialized for thread 38
+2025-11-09 10:50:54 [TestNG-tests-3] INFO  ActionDriver - Entered text: "Admin" to element: Element with name: username
+2025-11-09 10:50:54 [TestNG-tests-3] INFO  ActionDriver - Entered text: "admin123" to element: Element with name: password
+2025-11-09 10:50:54 [TestNG-tests-3] INFO  ActionDriver - Element is clicked -> Text with name: Login
+2025-11-09 10:50:54 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Text with name: Login
+2025-11-09 10:50:56 [TestNG-tests-3] INFO  ActionDriver - Element is displayed: Placeholder with name: null
+2025-11-09 10:50:56 [TestNG-tests-3] INFO  ActionDriver - Applied the border with color green to element Placeholder with name: null
+2025-11-09 10:50:58 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is quited
