@@ -6,9 +6,24 @@ pipeline {
         jdk 'JDK_20'
     }
 
-
+    environment{
+        COMPOSE_PATH = "${WORKSPACE}/docker"
+        SELENIUM_GRID = "true"
+    }
 
     stages {
+        stage('Start Selenium Grid via Docker Compose') {
+                steps {
+                    script{
+                        echo "Starting Selenium Grid with Docker Compose..."
+                        bat "docker compose -f ${COMPOSE_PATH}\\dockerCompose.yml up -d"
+                        echo "Waiting for Selenium Grid to be ready..."
+                        sleep 30 // Add a wait if needed
+                    }
+                    git branch: 'main', url: 'https://github.com/TranThuu/SeleniumTestFramework.git'
+                }
+            }
+
         stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/TranThuu/SeleniumTestFramework.git'
