@@ -10,6 +10,7 @@ public class DummyClass2 extends BaseClass {
     @Test
     public void dummyTest(){
 //        ExtentManager.startTest("dummy Test 2");
+        //
         Assert.assertTrue(true,"error");
         ExtentManager.logStep("Validation successful");
     }
