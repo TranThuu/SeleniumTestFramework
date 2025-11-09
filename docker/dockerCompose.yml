@@ -6,8 +6,6 @@ services:
   chrome:
     image: selenium/node-chrome:4.38.0
     shm_size: 2gb
-    deploy:
-      - replicas: 1
     depends_on:
       - selenium-hub
     extra_hosts:
@@ -19,10 +17,8 @@ services:
       - SE_NODE_MAX_SESSION=1
 
   edge:
-    image: selenium/node-edge:4.38.0-20251101
+    image: selenium/node-edge:4.38.0
     shm_size: 2gb
-    deploy:
-      - replicas: 1
     depends_on:
       - selenium-hub
     extra_hosts:
@@ -34,10 +30,8 @@ services:
       - SE_NODE_MAX_SESSION=4
 
   firefox:
-    image: selenium/node-firefox:4.38.0-20251101
+    image: selenium/node-firefox:4.38.0
     shm_size: 2gb
-    deploy:
-      - replicas: 1
     depends_on:
       - selenium-hub
     extra_hosts:
