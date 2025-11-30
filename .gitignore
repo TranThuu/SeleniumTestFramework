@@ -49,3 +49,6 @@ node_modules/
 
 # Ignore dependency caching
 /.m2/
+
+# Ignore folder Template
+src/main/java/org/example/

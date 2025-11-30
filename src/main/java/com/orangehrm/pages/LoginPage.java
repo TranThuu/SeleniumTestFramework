@@ -27,6 +27,9 @@ public class LoginPage {
         actionDriver.click(loginButton);
     }
 
+    public void wrongLocator(){
+        actionDriver.click(By.xpath("/abc"));
+    }
     // Method to check if the Credential error message is displayed
     public boolean isCredentialErrorMessageDisplayed(){
         return actionDriver.isDisplayed(credentialErrorMessage);

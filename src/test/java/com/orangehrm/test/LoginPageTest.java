@@ -6,6 +6,7 @@ import com.orangehrm.pages.LoginPage;
 import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,7 @@ public class LoginPageTest extends BaseClass {
    private LoginPage loginPage;
    private Homepage homepage;
 
-   @BeforeMethod
+   @BeforeClass
    public void setupPages(){
        loginPage = new LoginPage(getDriver());
        homepage = new Homepage(getDriver());
@@ -41,5 +42,10 @@ public class LoginPageTest extends BaseClass {
         ExtentManager.logStep("Invalid credential");
         Assert.assertTrue(loginPage.isCredentialErrorMessageDisplayed(), "Invalid credential should be displayed");
         ExtentManager.logStep("Validation successfully");
+    }
+
+    @Test
+    public void failTest(){
+       loginPage.wrongLocator();
     }
 }

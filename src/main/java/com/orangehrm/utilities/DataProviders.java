@@ -22,6 +22,10 @@ public class DataProviders {
         return getSheetData("emplVerification");
     }
 
+    @DataProvider(name = "bookLoginData")
+    public static Object[][] bookLoginData(){
+        return getSheetData("bookLoginData");
+    }
     private static Object[][] getSheetData(String sheetName){
         List<String[]> sheetData = ExcelReaderUtility.getSheetData(FILE_PATH,sheetName);
         Object[][] data = new Object[sheetData.size()][sheetData.get(0).length];

@@ -1,14 +1,14 @@
 package com.orangehrm.actiondriver;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.utilities.ExtentManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -16,12 +16,16 @@ import java.time.Duration;
 public class ActionDriver {
     private WebDriver driver;
     private WebDriverWait wait;
+    private JavascriptExecutor js;
+    private Actions actions;
     public static final Logger logger = BaseClass.logger;
 
     public ActionDriver(WebDriver driver){
         this.driver = driver;
         int explicitWait = Integer.parseInt(BaseClass.getProp().getProperty("explicitWait"));
         wait = new WebDriverWait(driver, Duration.ofSeconds(explicitWait));
+        js = (JavascriptExecutor) driver;
+        actions = new Actions(driver);
     }
 
     //Method to click an element
@@ -29,15 +33,33 @@ public class ActionDriver {
         try{
             waitForElementToBeClickable(by);
             String elementDescription = getElementDescription(by);
-            logger.info("Element is clicked -> " + elementDescription);
             applyBorder(by, "green");
-            ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Before click an element: " + getElementDescription(by),"Before Click: " + elementDescription);
+            logger.info("Element is clicked: " + elementDescription);
+            ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"Before click an element: " + elementDescription,"Before Click: " + elementDescription);
             driver.findElement(by).click();
             ExtentManager.logStepWithScreenshot(BaseClass.getDriver(),"After clicked an element: " + elementDescription,"After Click: " + elementDescription);
         }catch (Exception e){
             applyBorder(by, "red");
             ExtentManager.logFailure(BaseClass.getDriver(),"Unable to click an element: " + by.toString(), by.toString());
             logger.error("Unable to click element: "+ e.getMessage());
+            throw e;
+        }
+    }
+
+    public void clickByJs(By by){
+        try{
+            waitForElementToBeClickable(by);
+            String elementDescription = getElementDescription(by);
+            applyBorder(by,"green");
+            logger.info("Element is clicked: " +elementDescription);
+            ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "Before click an element: "+elementDescription, "Before Click: " + elementDescription);
+            js.executeScript("arguments[0].click()",by);
+            ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "After click element: " + elementDescription, "After click: " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by, "red");
+            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to click an element: " + by.toString(), by.toString());
+            logger.error("Unable to click element: " + e.getMessage());
+            throw e;
         }
     }
 
@@ -53,9 +75,175 @@ public class ActionDriver {
         }catch (Exception e){
             applyBorder(by, "red");
             logger.error("Unable to enter the text in to this field: " + e.getMessage());
-            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to enter text!",by.toString());
+            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to enter text: "+value, by.toString());
+            throw e;
         }
     }
+
+    public void selectOptionByText(By by, String value){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            WebElement element = driver.findElement(by);
+            Select select = new Select(element);
+            select.selectByValue(value);
+            logger.info("Select value \"" + value + "\" for " + elementDescription);
+            ExtentManager.logStep("Select value \"" + value + "\" for " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by,"red");
+            logger.error("Unable to select by value: " + value + " for: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to select by value: " + value + " for: " + by.toString(), "Unable to select by value: " + value + " for: " + by.toString());
+            throw e;
+        }
+    }
+
+    public void selectOptionByIndex(By by, int index){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            WebElement element = driver.findElement(by);
+            Select select = new Select(element);
+            select.selectByIndex(index);
+            logger.info("Select index \"" + index + "\" for " + elementDescription);
+            ExtentManager.logStep("Select index \"" + index + "\" for " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by,"red");
+            logger.error("Unable to select by index: " + index + " for: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to select by index: " + index + " for: " + by.toString(), "Unable to select by index: " + index + " for: " + by.toString());
+            throw e;
+        }
+    }
+
+    public void selectOptionByVisibleText(By by, String visibleText){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            WebElement element = driver.findElement(by);
+            Select select = new Select(element);
+            select.selectByVisibleText(visibleText);
+            logger.info("Select visible text \"" + visibleText + "\" for " + elementDescription);
+            ExtentManager.logStep("Select visible text \"" + visibleText + "\" for " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by,"red");
+            logger.error("Unable to select by index: " + visibleText + " for: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(),"Unable to select by visible text: " + visibleText + " for: " + by.toString(), "Unable to select by value: " + visibleText + " for: " + by.toString());
+            throw e;
+        }
+    }
+
+    public void doubleClick(By by){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            WebElement element = driver.findElement(by);
+            applyBorder(by, "green");
+            actions.doubleClick(element).perform();
+            logger.info("Double click element: " + elementDescription);
+            ExtentManager.logStep("Double click element " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by, "red");
+            logger.error("Unable to double click element: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to double click element: " + by.toString(), "Unable to double click element: " + by.toString());
+            throw e;
+        }
+    }
+
+    public void rightClick(By by){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            WebElement element = driver.findElement(by);
+            applyBorder(by, "green");
+            actions.contextClick(element).perform();
+            logger.info("Right click element: " + elementDescription);
+            ExtentManager.logStep("Right click element: " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by, "red");
+            logger.error("Unable to right click element: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to click element: " + by.toString(), "Unable to click element: " + by.toString());
+            throw e;
+        }
+    }
+
+    public void dragAndDrop(By source, By target) {
+        try {
+            waitForElementToBeClickable(source);
+            waitForElementToBeVisible(target);
+            String elementDescriptionSource = getElementDescription(source);
+            String elementDescriptionTarget = getElementDescription(target);
+            applyBorder(source, "green");
+            applyBorder(target, "green");
+            actions.dragAndDrop(driver.findElement(source), driver.findElement(target)).perform();
+            logger.info("Drag element: " + elementDescriptionSource + " to element: " + elementDescriptionTarget);
+            ExtentManager.logStep("Drag element: " + elementDescriptionSource + " to element: " + elementDescriptionTarget);
+        }catch (Exception e){
+            applyBorder(source, "red");
+            applyBorder(target, "red");
+            logger.error("Unable to drag and drop element: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to drag: " + source.toString() + " to: " + target.toString(), "Unable to drag and drop");
+            throw e;
+        }
+    }
+
+    public void hoverToElement(By by){
+        try{
+            waitForElementToBeVisible(by);
+            String elementDescription = getElementDescription(by);
+            applyBorder(by, "green");
+            actions.moveToElement(driver.findElement(by));
+            logger.info("Hover to element: " + elementDescription);
+            ExtentManager.logStep("Hover to element: " + elementDescription);
+        }catch (Exception e){
+            applyBorder(by, "red");
+            logger.error("Unable to hover element: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to hover element: " + by.toString(), "Unable to hover element" );
+            throw e;
+        }
+    }
+
+    public void acceptAlert(){
+        try{
+            waitForAlertPresent();
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+            logger.info("Alert is accepted");
+            ExtentManager.logStep("Alert is accepted");
+        }catch (Exception e){
+            logger.error("Unable to accept Alert: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to accept Alert", "Unable to accept Alert");
+            throw e;
+        }
+    }
+
+    public void dismissAlert(){
+        try{
+            waitForAlertPresent();
+            Alert alert = driver.switchTo().alert();
+            alert.dismiss();
+            logger.info("Alert is dismissed");
+            ExtentManager.logStep("Alert is dismissed");
+        }catch (Exception e){
+            logger.error("Unable to dismiss Alert: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to dismiss Alert", "Unable to dismiss Alert");
+            throw e;
+        }
+    }
+
+    public void sendKeysAndAcceptAlert(String value){
+        try{
+            waitForAlertPresent();
+            Alert alert = driver.switchTo().alert();
+            alert.sendKeys(value);
+            alert.accept();
+            logger.info("Alert is enter text " + value + " and accepted");
+            ExtentManager.logStep("Alert is enter text " + value + " and accepted");
+        }catch (Exception e){
+            logger.error("Unable to enter text " + value +" and accept Alert: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to enter text " + value +"  and accept Alert", "Unable to enter text " + value +"  and accept Alert");
+            throw e;
+        }
+    }
+
     //Method to get text from an input field
     public String getText(By by){
         try{
@@ -118,7 +306,7 @@ public class ActionDriver {
     //Wait for the page to load
     public void waitForPageLoad(int timeOutInSec){
         try{
-            wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> ((JavascriptExecutor) WebDriver)
+            wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> js
                     .executeScript("return document.readySate").equals("complete"));
         }catch (Exception e){
             logger.error("Page did  not load within: "+ timeOutInSec + " seconds. Exception: " + e.getMessage());
@@ -136,12 +324,23 @@ public class ActionDriver {
     }
 
     //Wait for element to be visible
-    private void waitForElementToBeVisible(By by){
+    private void  waitForElementToBeVisible(By by){
         try{
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         }catch (Exception e){
             logger.error("Element is not visible: " + e.getMessage());
             ExtentManager.logFailure(BaseClass.getDriver(), "Element is not visible: " + by.toString(),"Element is not visible: " + by.toString());
+            throw e;
+        }
+    }
+
+    //Wait for Alert is present
+    private void waitForAlertPresent(){
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());
+        }catch (Exception e){
+            logger.error("Alert is not present");
+            ExtentManager.logFailure(BaseClass.getDriver(), "Alert is not present", "Alert is not present");
             throw e;
         }
     }
@@ -208,7 +407,7 @@ public class ActionDriver {
             js.executeScript(script, element);
             logger.info("Applied the border with color " + color + " to element " + getElementDescription(by));
         }catch (Exception e){
-            logger.warn("Failed to apply the border to an element: " + getElementDescription(by));
+            logger.warn("Failed to apply the border to an element: " + by.toString());
         }
     }
 

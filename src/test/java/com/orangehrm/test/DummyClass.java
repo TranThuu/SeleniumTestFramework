@@ -27,15 +27,15 @@ public class DummyClass extends BaseClass {
         //throw  new SkipException("Skipping the test as part of Testing");
     }
 
-    @Test
-    public void testJenkins(){
-        //hehe
-        //hehe
-        //ExtentManager.startTest("dummy Test 1");
-        Assert.assertTrue(true,"error");
-        //ExtentManager.logSkip("this casgit e is skipped");
-        //throw  new SkipException("Skipping the test as part of Testing");
-    }
+//    @Test
+//    public void testJenkins(){
+//        //hehe
+//        //hehe
+//        //ExtentManager.startTest("dummy Test 1");
+//        Assert.assertTrue(true,"error");
+//        //ExtentManager.logSkip("this casgit e is skipped");
+//        //throw  new SkipException("Skipping the test as part of Testing");
+//    }
 
 //    @Test
 //    public void failTest(){

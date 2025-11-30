@@ -48,18 +48,13 @@ public class BaseClass {
         //ExtentManager.getReporter(); -- This has been implemented in TestListener
     }
 
-    @BeforeMethod
+    @BeforeClass
     @Parameters("browser")
     public synchronized void setup(String browser) throws IOException {
-        System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
+        logger.info("Setting up WebDriver for:" + this.getClass().getSimpleName());
         launchBrowser(browser);
         configBrowser();
         logger.info("WenDriver Initialized and Browser Maximized");
-        logger.trace("Trace message");
-        logger.error("error message");
-        logger.debug("debug message");
-        logger.fatal("fatal message");
-        logger.warn("warn message");
         //Initialize ActionDriver
 //        if(actionDriver == null){
 //            actionDriver = new ActionDriver(driver);
@@ -126,12 +121,12 @@ public class BaseClass {
                 case "chrome":
                     //Create ChromeOptions
                     ChromeOptions chromeOptions = new ChromeOptions();
-                    chromeOptions.addArguments("--headless=new"); //Run chrome in headless mode
-                    chromeOptions.addArguments("--disable-gpu"); //Disable GPU for headless mode
-                    chromeOptions.addArguments("--window-size=1920,1080"); //Set window size
-                    chromeOptions.addArguments("--disable-notifications"); //Disable browser notification
-                    chromeOptions.addArguments("--no-sandbox"); //Required for some CI environments
-                    chromeOptions.addArguments("--disable-dev-shm-usage"); //Resolve issues in resource
+//                    chromeOptions.addArguments("--headless=new"); //Run chrome in headless mode
+//                    chromeOptions.addArguments("--disable-gpu"); //Disable GPU for headless mode
+//                    chromeOptions.addArguments("--window-size=1920,1080"); //Set window size
+//                    chromeOptions.addArguments("--disable-notifications"); //Disable browser notification
+//                    chromeOptions.addArguments("--no-sandbox"); //Required for some CI environments
+//                    chromeOptions.addArguments("--disable-dev-shm-usage"); //Resolve issues in resource
 
 //                driver = new ChromeDriver();
                     driver.set(new ChromeDriver(chromeOptions));
@@ -194,7 +189,7 @@ public class BaseClass {
 
     }
 
-    @AfterMethod
+    @AfterClass
     public synchronized void tearDown(){
         if(getDriver()!=null){
             try{
