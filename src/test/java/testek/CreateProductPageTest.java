@@ -60,7 +60,6 @@ public class CreateProductPageTest extends BaseClass {
 
         //Compare product
         addProductPage.isDetailProductCorrect(category, provider, productCode, productName, unit, description, price, quantity);
-
     }
 
 }
