@@ -1,8 +1,8 @@
 package com.orangehrm.test;
 
 import com.orangehrm.base.BaseClass;
-import com.orangehrm.pages.Homepage;
-import com.orangehrm.pages.LoginPage;
+import com.orangehrm.pages.orangehrm.Homepage;
+import com.orangehrm.pages.orangehrm.LoginPage;
 import com.orangehrm.utilities.DataProviders;
 import com.orangehrm.utilities.ExtentManager;
 import org.testng.Assert;

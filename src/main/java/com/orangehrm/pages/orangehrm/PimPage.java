@@ -1,4 +1,4 @@
-package com.orangehrm.pages;
+package com.orangehrm.pages.orangehrm;
 
 import com.orangehrm.actiondriver.ActionDriver;
 import com.orangehrm.base.BaseClass;

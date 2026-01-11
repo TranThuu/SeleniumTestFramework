@@ -75,10 +75,29 @@
             <artifactId>rest-assured</artifactId>
             <version>5.5.6</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.32.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.32.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.core/jackson-core -->
+        <dependency>
+            <groupId>tools.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>3.0.3</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
-        <pluginManagement> <!-- Lock down plugins versions to avoid using Maven defaults (may be moved to parent pom -->
+        <pluginManagement> <!-- Lock down plugins versions to avoid using Maven defaults (maybe moved to parent pom -->
             <plugins>
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>

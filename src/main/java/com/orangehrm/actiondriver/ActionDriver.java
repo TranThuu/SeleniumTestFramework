@@ -3,6 +3,10 @@ package com.orangehrm.actiondriver;
 import com.aventstack.extentreports.ExtentReports;
 import com.orangehrm.base.BaseClass;
 import com.orangehrm.utilities.ExtentManager;
+import io.cucumber.core.internal.com.fasterxml.jackson.core.JsonProcessingException;
+import io.cucumber.core.internal.com.fasterxml.jackson.databind.JsonNode;
+import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
+import io.cucumber.core.internal.com.fasterxml.jackson.databind.ser.Serializers;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -12,6 +16,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.jar.Attributes;
 
 public class ActionDriver {
     private WebDriver driver;
@@ -251,7 +256,19 @@ public class ActionDriver {
             return driver.findElement(by).getText();
         }catch (Exception e){
             logger.error("Unable to get text: " + e.getMessage());
-            return "";
+            throw e;
+        }
+    }
+
+    //Method to get value attribute from a tag
+    public String getValueOfAttribute(By by, String attribute){
+        try{
+            waitForElementToBeVisible(by);
+            waitForAttributeToBeNotEmpty(by,attribute);
+            return driver.findElement(by).getAttribute(attribute);
+        }catch (Exception e){
+            logger.error("Unable to get  of \"" + attribute+"\" attribute: " + e.getMessage());
+            throw e;
         }
     }
 
@@ -273,6 +290,16 @@ public class ActionDriver {
             logger.error("Unable to compare: "+ e.getMessage());
         }
         return false;
+    }
+
+    public boolean compareTwoString(String value1, String value2){
+        try{
+            logger.info("Texts are matching! actualText: \""+ value1+"\"");
+            return value1.equals(value2);
+        }catch (Exception e){
+            ExtentManager.logFailure(BaseClass.getDriver(), "Texts are not matching! actualText: \""+ value1+"\", expectedText: \""+value2+"\"","texts are not matched");
+            return false;
+        }
     }
 
     //Method to check if an element is displayed
@@ -330,6 +357,17 @@ public class ActionDriver {
         }catch (Exception e){
             logger.error("Element is not visible: " + e.getMessage());
             ExtentManager.logFailure(BaseClass.getDriver(), "Element is not visible: " + by.toString(),"Element is not visible: " + by.toString());
+            throw e;
+        }
+    }
+
+    //Wait for attribute to be visible
+    private void waitForAttributeToBeNotEmpty(By by, String attribute){
+        try{
+            wait.until(ExpectedConditions.attributeToBeNotEmpty(driver.findElement(by), attribute));
+        }catch (Exception e){
+            logger.error("Attribute is empty: " + e.getMessage());
+            ExtentManager.logFailure(BaseClass.getDriver(), "Attribute is empty: " + by.toString(),"Attribute is empty: " + by.toString());
             throw e;
         }
     }
@@ -422,5 +460,18 @@ public class ActionDriver {
              applyBorder(by, "red");
              logger.error("Unable to click using JavaScript", e);
         }
+    }
+
+    //Transform String to NodeJson
+    public JsonNode stringToNodeJson(String json) throws JsonProcessingException {
+        try{
+            //Transform the JSON String to JsonNode
+            ObjectMapper mapper = new ObjectMapper();
+            return mapper.readTree(json);
+        }catch (Exception e){
+            logger.error("Failed to tranform a String to Json: " + e.getMessage());
+            throw e;
+        }
+
     }
 }

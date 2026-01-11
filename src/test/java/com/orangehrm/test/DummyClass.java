@@ -1,11 +1,9 @@
 package com.orangehrm.test;
 
 import com.orangehrm.base.BaseClass;
-import com.orangehrm.pages.Homepage;
-import com.orangehrm.pages.LoginPage;
-import com.orangehrm.utilities.ExtentManager;
+import com.orangehrm.pages.orangehrm.Homepage;
+import com.orangehrm.pages.orangehrm.LoginPage;
 import org.testng.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
