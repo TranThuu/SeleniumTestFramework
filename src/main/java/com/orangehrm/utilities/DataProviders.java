@@ -26,6 +26,11 @@ public class DataProviders {
     public static Object[][] bookLoginData(){
         return getSheetData("bookLoginData");
     }
+
+    @DataProvider(name = "invalidProductData")
+    public static Object[][] invalidProductData(){
+        return getSheetData("invalidProductData");
+    }
     private static Object[][] getSheetData(String sheetName){
         List<String[]> sheetData = ExcelReaderUtility.getSheetData(FILE_PATH,sheetName);
         Object[][] data = new Object[sheetData.size()][sheetData.get(0).length];

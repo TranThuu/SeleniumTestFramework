@@ -19,15 +19,25 @@ public class ExcelReaderUtility {
             if(sheet == null){
                 throw new IllegalStateException("Sheet " + sheetName + " doesn't exists");
             }
+            //Get total colum, row
+            int totalCol = sheet.getRow(0).getLastCellNum(); //Return index + 1 (0-based) = list/array
+            int totalRow = sheet.getLastRowNum(); //Return index (0-based)
             //Iterate through rows
-            for(Row row:sheet){
-                if(row.getRowNum() == 0){
-                    continue;
-                }
+            for(int r = 1; r <= totalRow; r++){//Skip the first row
+
+                Row row = sheet.getRow(r); //If all the row blank -> it returns row = null
+//                if(row.getRowNum() == 0){
+//                    continue;
+//                }
                 //Read all cells in the row
                 List<String> rowData = new ArrayList<>();
-                for(Cell cell:row){
-                    rowData.add(getCellValue(cell));
+                for(int c = 0;  c < totalCol; c++){
+//                for(Cell cell:row){ //Only loop through the cell that has data
+                    if(row == null){
+                        rowData.add("");
+                        continue;
+                    }
+                    rowData.add(getCellValue(row.getCell(c)));
                 }
                 //convert rowData to Array
                 data.add(rowData.toArray(new String[0]));

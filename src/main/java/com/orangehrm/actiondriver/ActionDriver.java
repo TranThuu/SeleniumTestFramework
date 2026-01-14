@@ -295,10 +295,23 @@ public class ActionDriver {
     public boolean compareTwoString(String value1, String value2){
         try{
             logger.info("Texts are matching! actualText: \""+ value1+"\"");
-            return value1.equals(value2);
+            if(value1.equals(value2))
+                return true;
         }catch (Exception e){
             ExtentManager.logFailure(BaseClass.getDriver(), "Texts are not matching! actualText: \""+ value1+"\", expectedText: \""+value2+"\"","texts are not matched");
             return false;
+        }
+        ExtentManager.logFailure(BaseClass.getDriver(), "Texts are not matching! actualText: \""+ value1+"\", expectedText: \""+value2+"\"","texts are not matched");
+        return false;
+    }
+
+    //Find an element from an existing locator then getText
+    public String getText(By by, String xpath){
+        try{
+            return wait.until(ExpectedConditions.visibilityOf(driver.findElement(by).findElement(By.xpath(xpath)))).getText();
+        }catch (Exception e){
+            ExtentManager.logFailure(BaseClass.getDriver(), "Unable to find an element from an existing locator: by = \""+ by.toString()+"\", xpath: \""+xpath+"\"","Unable to find an element");
+            throw e;
         }
     }
 
