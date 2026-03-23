@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="APiTest">
+    <listeners>
+        <listener class-name="listeners.TestListeners"></listener>
+    </listeners>
+    <test name="testek">
+        <classes>
+            <class name="tests.API.BookManagement.GetBookTest"></class>
+            <class name="tests.API.BookManagement.PostBookTest"></class>
+        </classes>
+    </test>
+</suite>

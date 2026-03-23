@@ -1,12 +1,11 @@
 package com.orangehrm.pages.testek;
 
-import com.orangehrm.actiondriver.ActionDriver;
-import com.orangehrm.base.BaseClass;
-import com.orangehrm.utilities.enums.ProductFieldsEnum;
-import com.orangehrm.utilities.enums.RequiredMessageProduct;
+import actiondriver.ActionDriver;
+import base.BaseClass;
+import utilities.enums.ProductFieldsEnum;
+import utilities.enums.RequiredMessageProduct;
 import io.cucumber.core.internal.com.fasterxml.jackson.core.JsonProcessingException;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.JsonNode;
-import io.cucumber.core.internal.com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.By;
 public class AddProductPage {
     private ActionDriver actionDriver;

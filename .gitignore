@@ -30,7 +30,7 @@ mvnw.cmd
 screenshots/
 allure-results/
 reports/
-ExtentReport/
+testoutput/
 *.html
 
 # Ignore generated Selenium WebDriver files

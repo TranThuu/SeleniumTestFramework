@@ -1,7 +1,7 @@
 package com.orangehrm.pages.bookPages;
 
-import com.orangehrm.actiondriver.ActionDriver;
-import com.orangehrm.base.BaseClass;
+import actiondriver.ActionDriver;
+import base.BaseClass;
 import org.openqa.selenium.By;
 
 public class CreateNewBookPage {

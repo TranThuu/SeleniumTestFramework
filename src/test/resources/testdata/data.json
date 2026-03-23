@@ -1,0 +1,9 @@
+{
+  "id": 3,
+  "name": "Tran Thu",
+  "phone_number": "012345",
+  "course": {
+    "teacher": "ABC",
+    "course_name": "C++"
+  }
+}
